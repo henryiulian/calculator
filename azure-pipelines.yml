@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: moh-contoso-local-agent
+pool: local-pool
 
 steps:
 - task: NodeTool@0
